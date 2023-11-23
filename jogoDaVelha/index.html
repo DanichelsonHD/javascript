@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: 'ChalkRegular';
+            src: url(font/Chalk-Regular.ttf);
+        }
+        div {
+            background-image: url(img/quadroNegro.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 110svh;
+            height: 65vh;
+
+            display: block;
+            margin: auto;
+            margin-top: 10vh;
+        }
+        canvas {
+            width: 90svh;
+            height: 50vh;
+
+            display: block;
+            margin: auto;
+            margin-top: 2vh;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        h1 {
+            color: white;
+            font-size: 5vh;
+            font-family: 'ChalkRegular', cursive;
+
+            display: block;
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+            padding-top: 15px;
+            text-align: center;
+        }
+        button {
+            color: white;
+            font-size: 5vh;
+            font-family: 'ChalkRegular', cursive;
+
+            background-color: #00000000;
+            border: #00000000;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            padding-top: opx;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Jogo da Velha</h1>
+        <canvas id="canvas"></canvas>
+        <button type="button" id="button">Jogar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
