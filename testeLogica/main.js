@@ -16,6 +16,7 @@ function calculateAverage ()
         whiteList.shift();
     }
     console.log(averageList);
+    averageList = [];
 }
 
 function canCalculate ()
