@@ -51,7 +51,7 @@ function  validate ()
     if(averageQuantity == null || typeof(averageQuantity) != "number") throw new Error("Número da Média Inválido");
 
     if(numbersQuantity > numbersList.length) throw new Error("Quantia de Números maior do que os presentes na Lista");
-    if(numbersQuantity < averageQuantity) throw new Error("Quantia de Números menos do que a Média");
+    if(numbersQuantity < averageQuantity) throw new Error("Quantia de Números menor do que a Média");
     if(averageQuantity > numbersList.length) throw new Error("Média maior do que a Lista");
 }
 
