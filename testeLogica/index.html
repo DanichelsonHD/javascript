@@ -13,6 +13,15 @@
 <body>
     <div>
         <h1>Aperte F12</h1>
+        
+        X (Quantia de Números desejada): <input type="number" name="xNumber" id="xNumber" maxlength="2" minlength="1" value="10"><br>
+        Y (Quantia de Números pra calcular a Média): <input type="number" name="yNumber" id="yNumber" maxlength="2" value="3"><br>
+        Adicionar número para a Lista: <input type="number" name="newNumber" id="newNumber" maxlength="10" minlength="1"><br><br>
+        <input type="button" onclick="calculateAverage()" value="Submit">
+        <input type="button" onclick="resetList()" value="Reset"><br><br>
+        <p>Lista atual: <a id="list"></p>
+        <p>Resultado: <a id="result"></p>
+        
     </div>
     <script src="main.js"></script>
 </body>
