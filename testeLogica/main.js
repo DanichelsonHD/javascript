@@ -1,6 +1,6 @@
 var numbersQuantity = 10;
 var averageQuantity = 3;
-let numbersList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let numbersList = [8, 2, 9, 11, 3, 1, 7, 6, 12, 4, 5, 10];
 let averageList = [];
 let whiteList;
 
